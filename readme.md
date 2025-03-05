@@ -6,7 +6,7 @@ The BW64/ADM file format is a packed binary format containing several distinct c
 The raw audio, adm xml and the bext are just copied out as is into their own files. 
 The format info and the chna data are converted to json.
 
-It uses the file utilities in the EBU ADM Renderer to read and write files https://github.com/ebu/ebu_adm_renderer
+It uses the file reader and writer from the EBU ADM Renderer to access the chunks  https://github.com/ebu/ebu_adm_renderer
 
 ## Usage
 
